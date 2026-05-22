@@ -23,7 +23,7 @@ O projeto foi criado com foco em:
 🧩 Filtro por categorias
 🛒 Exibição dinâmica de produtos
 
-✨ Funcionalidades
+# ✨ Funcionalidades
 
 ✅ Busca dinâmica de produtos
 ✅ Filtro por categorias
@@ -34,7 +34,7 @@ O projeto foi criado com foco em:
 ✅ Integração com WhatsApp
 ✅ Navegação intuitiva
 
-💻 Stack do Projeto
+# 💻 Stack do Projeto
 Tecnologia	Descrição
 HTML5	Estrutura da aplicação
 CSS3	Estilização e responsividade
@@ -43,7 +43,7 @@ Font Awesome	Ícones do projeto
 Unsplash	Imagens dos produtos
 
 
-📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto
 📦 techstore
  ┣ 📂 assets
  ┣ 📜 index.html
@@ -51,7 +51,7 @@ Unsplash	Imagens dos produtos
  ┣ 📜 scripts.js
  ┗ 📜 README.md
 
- 🧩 Sistema de Categorias
+# 🧩 Sistema de Categorias
 
 O projeto possui filtragem dinâmica por categorias:
 
@@ -62,27 +62,13 @@ O projeto possui filtragem dinâmica por categorias:
 ⌨️ Accessories
 🎨 Design Responsivo
 
-O layout se adapta automaticamente para:
+#O layout se adapta automaticamente para:
 
 📱 Smartphones
 💻 Notebooks
 🖥️ Monitores grandes
 ⚙️ Como Executar o Projeto
 1️⃣ Clone o repositório
-git clone https://github.com/SEU-USUARIO/techstore.git
-2️⃣ Entre na pasta
-cd techstore
-3️⃣ Abra o projeto
-
-Basta abrir o arquivo:
-
-index.html
-
-ou utilize a extensão:
-
-Live Server (VS Code)
-
-📦 Produtos Exibidos
 
 O sistema atualmente apresenta:
 
@@ -96,7 +82,7 @@ Teclado Mecânico	Accessories
 Sony WH-1000XM5	Headphones
 Dell XPS 13	Laptop
 
-🧠 Conceitos Praticados
+#🧠 Conceitos Praticados
 
 Durante o desenvolvimento foram utilizados:
 
@@ -110,7 +96,7 @@ Responsividade com CSS
 Flexbox
 CSS Grid
 
-🎯 Melhorias Futuras
+#🎯 Melhorias Futuras
 
 🚧 Sistema de carrinho
 🚧 Página individual do produto
@@ -121,7 +107,7 @@ CSS Grid
 🚧 Favoritos
 🚧 Paginação
 
-👨‍💻 Autor
+#👨‍💻 Autor
 Robson Sardinha
 
 Desenvolvedor Front-End em evolução 🚀
