@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>TechStore</title>
+</head>
+
+<body>
+    <!-- cabeçario (parte superior do site) -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-bolt"></i>
+            <h1>TechStore</h1>
+        </div>
+        <div class="search-container">
+            <input placeholder="search products..." class="search-input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+
+    </header>
+
+    <div class="categorias-container">
+        <!-- "nav" e uma ciaxa de navegação-->
+        <nav class="categories-bar">
+            <button class="btn active" data-category="all">
+                <i class="fa-solid fa-border-all"></i>
+                all
+            </button>
+            <button class="btn" data-category="smartphones">
+                <i class="fa-solid fa-mobile-screen"></i>
+                Smartphone
+            </button>
+            <button class="btn" data-category="laptops">
+                <i class="fa-solid fa-laptop"></i>
+                laptops
+            </button>
+
+
+            </button>
+            <button class="btn" data-category="headphones">
+                <i class="fa-solid fa-headphones"></i>
+                headphones
+            </button>
+            <button class="btn" data-category="accessories">
+                <i class="fa-regular fa-keyboard"></i>
+                accessories
+            </button>
+            <button class="btn" data-category="smartwatch"><i class="fa-regular fa-clock"></i>
+                smartwatch
+            </button>
+        </nav>
+    </div>
+    <section class="hero-section">
+        <h2>Black Friday Antecipado</h2>
+        <p>sites a preço de banana</p>
+    </section>
+    <main class="products">
+        <div class="products-container">
+
+
+        </div>
+    </main>
+    <!-- footer e a parte inferior do site -->
+    <footer>
+        <p>2025 - TechStore. Site de demostração</p>
+
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>
+
+git config --global user.name "Robson-Dev60"
+git config --global user.email "robsonsardinha663@gmail.com"
+
+
+git add .
+git commit -m "first commit"
+git push -u origin main
