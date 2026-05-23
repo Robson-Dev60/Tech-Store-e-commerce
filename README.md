@@ -12,6 +12,7 @@
 
 ## 📖 Sobre o Projeto
 
+![Preview do projeto](./assents\Tech-Shop-Project-screpshot.png)
 O TechStore é uma landing page moderna para uma loja virtual de tecnologia desenvolvida com HTML, CSS e JavaScript puro.
 
 ### O projeto foi criado com foco em:
