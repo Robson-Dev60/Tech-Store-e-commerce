@@ -22,12 +22,11 @@ body {
     line-height: 1.6;
 }
 
-@media (max-width: 600px) {
     button {
         width: 100%;
         font-size: 18px;
     }
-}
+
 
 header {
     background-color: white;
@@ -223,4 +222,207 @@ footer {
 .botao-product:hover {
     background-color: #4bb1f6;
 
+}
+
+/* CSS PARA MOBILE (telas menores que 768px) */
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        background-color: white;
+        padding: 0.8rem 1rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 0.5rem;
+        z-index: 1000;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    .logo i {
+        font-size: 1.5rem;
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+
+    .search-container {
+        flex: 1;
+        margin: 0 0.5rem;
+        padding: 0.4rem 0.8rem;
+        max-width: 200px;
+    }
+
+    .search-container input {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .categorias-container {
+        background: var(--secundary-color);
+        padding: 5px 0;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .categories-bar {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    .btn {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    border: none;
+    color: var(--white-color);
+    border-radius: 1.5rem;
+    /* ALTERE ISSO: Reduza o padding */
+    padding: 0.4rem 0.8rem; 
+    cursor: pointer;
+    background: none;
+    /* ADICIONE ISSO: Impede que o texto quebre linha */
+    white-space: nowrap; 
+    /* ADICIONE ISSO: Impede que o botão encolha */
+    flex-shrink: 0; 
+    /* ALTERE ISSO: Reduza o tamanho da fonte */
+    font-size: 0.8rem;
+    width: 100px;
+}
+
+    .btn:hover {
+        background-color: var(--hover-btn);
+    }
+
+    .btn.active {
+        background: var(--primary-color);
+        
+    }
+
+    .hero-section {
+        background: linear-gradient(28deg, rgba(255, 107, 53, 1) 13%, rgba(158, 86, 65, 1) 40%, rgba(35, 132, 222, 1) 77%, rgba(19, 100, 176, 1) 85%);
+        color: var(--white-color);
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .hero-section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .products-container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 1rem 0.5rem;
+        margin: 0 auto;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 0.8rem;
+    }
+
+    .carde-produto {
+        width: 100%;
+        background-color: var(--white-color);
+        border-radius: 0.8rem;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .carde-produto:hover {
+        transform: translateY(-5px);
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+    .imagem-produto {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .info-product {
+        padding: 0.6rem;
+    }
+
+    .nome-product {
+        font-size: 0.95rem;
+        font-weight: bold;
+        margin-bottom: 0.3rem;
+        color: var(--text-color);
+        line-height: 1.3;
+    }
+
+    .descricao-product {
+        font-size: 0.75rem;
+        margin-bottom: 0.5rem;
+        color: var(--text-color);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+      
+        -webkit-box-orient: vertical;
+        line-height: 1.4;
+    }
+
+    .preco-product {
+        font-size: 1.1rem;
+        color: var(--primary-color);
+        margin-bottom: 0.6rem;
+        font-weight: bold;
+    }
+
+    .botao-product {
+        width: 100%;
+        background-color: var(--accent-color);
+        color: var(--white-color);
+        border: none;
+        padding: 0.5rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .botao-product:hover {
+        background-color: #4bb1f6;
+    }
+
+    footer {
+        background-color: var(--secundary-color);
+        color: var(--white-color);
+        padding: 1.5rem;
+        text-align: center;
+        font-size: 0.9rem;
+    }
 }
