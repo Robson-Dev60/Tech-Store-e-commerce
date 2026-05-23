@@ -12,7 +12,7 @@
 
 ## 📖 Sobre o Projeto
 
-![Preview do projeto]
+
 <p align="center">
   <img 
     src="./assents/captura.png" 
