@@ -12,9 +12,17 @@
 
 ## 📖 Sobre o Projeto
 
-![Preview do projeto](./assents\)
+![Preview do projeto]
 <p align="center">
-  <img src="./assents/captura.png" width="900">
+  <img 
+    src="./assents/captura.png" 
+    width="700"
+    style="
+      border-radius:20px;
+      border:3px solid #444;
+      box-shadow:0 8px 20px rgba(0,0,0,0.35);
+    "
+  >
 </p>
 O TechStore é uma landing page moderna para uma loja virtual de tecnologia desenvolvida com HTML, CSS e JavaScript puro.
 
